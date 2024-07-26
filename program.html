@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(226, 225, 224);
+        }
+        h1{
+            text-align: center;
+            color: rgb(226, 93, 175);
+        }
+        #post-container{
+            padding-top: 20px;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+        }
+        #btn{
+            background-color: rgb(226, 93, 175);
+            border: none;
+            padding: 13px;
+            border-radius: 15px;
+            color: #fff;
+            font-size: 16px;
+        }
+        .post{
+            font-size: 18px;
+            color: rgb(226, 93, 175);
+            padding: 20px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>БЛОГ</h1>
+    <div id="post-container">
+    <input type="text" placeholder="Заголовок поста" id="title" required>
+    <input type="text" placeholder="Текст поста" id="body" required>
+    <input type="button" id="btn" value="Добавить новый пост">
+</div>
+<script src="./assets/program.js"></script>
+</body>
+</html>
